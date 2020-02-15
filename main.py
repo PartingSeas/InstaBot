@@ -14,8 +14,6 @@ class InstaBot:
         sleep(3)
         self.driver.find_element_by_xpath("/html/body/div[4]/div/div/div[3]/button[2]").click()#clicks not now
         self.driver.find_element_by_xpath("/html/body/div[1]/section/nav/div[2]/div/div/div[3]/div/div[3]/a").click()#Goes to profile
-     def get_unfollowers(self):
-        self.driver.find_element_by_xpath
 
      def unfollowers(self): 
         sleep(2)
