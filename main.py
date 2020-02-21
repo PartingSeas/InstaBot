@@ -41,7 +41,7 @@ class InstaBot:
                 return arguments[0].scrollHeight;""", scroll_box)
         links = scroll_box.find_elements_by_tag_name('a')
         names = [name.text for name in links if name.text != '']
-        self.driver.find_elements_by_xpath("/html/body/div[4]/div/div[1]/div/div[2]/button/svg").click() #close button
+        self.driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/div/div[2]/button/svg").click() #close button
         return names
 
 
